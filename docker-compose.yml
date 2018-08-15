@@ -7,10 +7,10 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.dockerfile
-    command: python3 manage.py runserver 0.0.0.0:8000
+    command: python3 app.py
     volumes:
       - .:/code
     ports:
-      - "8000:8000"
+      - "8888:8888"
     depends_on:
       - db
