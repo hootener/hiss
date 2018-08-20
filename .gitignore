@@ -1,2 +1,6 @@
-resources/node_modules/*
+resources/node_modules/
 static/*
+handlers/__pycache__/*
+resources/yarn-error.log
+.vscode/
+resources/dist
